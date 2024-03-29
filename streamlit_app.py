@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow import keras
 
-loaded_model = load_model('face_mask_model.h5')
+loaded_model = load_model('my_model.h5')
 
 def process_image(image):
     # with keras
