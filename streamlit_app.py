@@ -43,13 +43,13 @@ if options == 'Prediction': # Prediction page
 elif options == 'Code':
     st.header('Code')
     # Add a button to download the Jupyter notebook (.ipynb) file
-    # notebook_path = 'object_recognition_model.ipynb'
-    # with open(notebook_path, "rb") as file:
-    #     btn = st.download_button(
-    #         label="Download Jupyter Notebook",
-    #         data=file,
-    #         file_name="object_recognition_model.ipynb",
-    #         mime="application/x-ipynb+json"
+    notebook_path = 'Face_Mask_Detection.ipynb'
+    with open(notebook_path, "rb") as file:
+        btn = st.download_button(
+            label="Download Jupyter Notebook",
+            data=file,
+            file_name="Face_Mask_Detection.ipynb",
+            mime="application/x-ipynb+json"
     #     )
     st.write('You can download the Jupyter notebook to view the code and the model building process.')
     st.write('--'*50)
