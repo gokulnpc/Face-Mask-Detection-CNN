@@ -50,7 +50,7 @@ elif options == 'Code':
             data=file,
             file_name="Face_Mask_Detection.ipynb",
             mime="application/x-ipynb+json"
-    #     )
+        )
     st.write('You can download the Jupyter notebook to view the code and the model building process.')
     st.write('--'*50)
 
