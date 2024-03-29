@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow import keras
 
-loaded_model = load_model('my_model.h5')
+loaded_model = load_model('face_mask_model.h5')
 
 def process_image(image):
     # with keras
@@ -56,7 +56,7 @@ elif options == 'Code':
 
     st.header('GitHub Repository')
     st.write('You can view the code and the dataset used in this web app from the GitHub repository:')
-    st.write('[GitHub Repository](https://github.com/gokulnpc/Object-Recognition-ResNet50)')
+    st.write('[GitHub Repository](https://github.com/gokulnpc/Face-Mask-Detection-CNN)')
     st.write('--'*50)
     
 elif options == 'About':
@@ -69,7 +69,7 @@ elif options == 'About':
     
     st.write('--'*50)
     st.write('The web app is open-source. You can view the code and the dataset used in this web app from the GitHub repository:')
-    st.write('[GitHub Repository](https://github.com/gokulnpc/Object-Recognition-ResNet50)')
+    st.write('[GitHub Repository](https://github.com/gokulnpc/Face-Mask-Detection-CNN)')
     st.write('--'*50)
 
     st.header('Contact')
